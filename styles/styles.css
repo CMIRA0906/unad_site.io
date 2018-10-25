@@ -17,6 +17,7 @@ body{
 }
 
 header{
+margin: auto;
 height: 100px;
 width: auto;
 background: #094293 ;
@@ -24,14 +25,18 @@ color:#fff;
 }
 
 nav{
+	margin: auto;
 	width: 180;
-	height: 50px;
+	height: 60px;
+	align-content: center;
+	padding: 10px;
 	background: gray;
 	display: flex;
 	justify-content:center;
 }
 
 nav ul{
+	margin: auto;
 	display: flex;
 	list-style: none;
 	font-family: tahoma;
@@ -61,13 +66,24 @@ nav ul li:hover ul{
 
 #slider{
 	margin: auto;
-	border: 5px solid #000000;
-	margin-top: 5px;
+	margin-top: 0px;
 }
 
 #contenido{
 	float: left;
 	width: 960px;
+	background: #ffffff;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+#contenidoIntro{
+	float: left;
+	width: 700px;
+	font-style: italic;
 	background: #ffffff;
 	border-radius: 10px;
 	overflow: hidden;
@@ -102,6 +118,8 @@ nav ul li:hover ul{
 	float: left;
 	margin: 10px;
 }
+
+
 
 .articulos p{
 	margin-top: 5px;
