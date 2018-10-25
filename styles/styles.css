@@ -83,7 +83,7 @@ nav ul li:hover ul{
 #contenidoIntro{
 	float: left;
 	width: 700px;
-	font-style: italic;
+	font-style: normal;
 	background: #ffffff;
 	border-radius: 10px;
 	overflow: hidden;
